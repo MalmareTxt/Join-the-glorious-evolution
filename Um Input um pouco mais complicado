@@ -1,0 +1,8 @@
+#chama as cores do terminal
+from colorama import Fore, Style
+def saudacao():
+    nome = input("Por favor diga seu nome: ").lower()
+    nome1 = (' '.join(nome.capitalize() for nome in nome.split()))
+    txt1 = 'Olá {}{}'.format(Fore.CYAN + Style.BRIGHT,nome1)
+    print('{}'.format(txt1))
+saudacao()
