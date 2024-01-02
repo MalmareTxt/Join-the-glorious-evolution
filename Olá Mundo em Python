@@ -1,0 +1,4 @@
+# Chama a biblioteca de Cores.
+# Na versão utilizada do Pycharm os emoji ja tinham suporte no terminal, não foi necessario chamar a biblioteca emoji.
+from colorama import Fore, Style
+print(Fore.CYAN, Style.BRIGHT + ('Olá Mundo 🌎🌎'))
